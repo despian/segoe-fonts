@@ -1,0 +1,21 @@
+{
+  "name": "segoe-fonts",
+  "version": "0.0.1",
+  "authors": [
+    "Aquib Master <aquib.master@intergen.co.nz>"
+  ],
+  "description": "A simple package to import and setup the Segoe font family.",
+  "main": "css\\segoe-fonts.css",
+  "keywords": [
+    "Segoe",
+    "Fonts"
+  ],
+  "license": "NA",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
