@@ -5,7 +5,21 @@
     "Aquib Master <aquib.master@intergen.co.nz>"
   ],
   "description": "A simple package to import and setup the Segoe font family.",
-  "main": "css\\segoe-fonts.css",
+  "main": [
+  	"css/segoe-fonts.css",
+  	"fonts/normal/segoeui.eot",
+  	"fonts/normal/segoeui.svg",
+  	"fonts/normal/segoeui.woff",
+  	"fonts/semibold/seguisb.eot",
+  	"fonts/semibold/seguisb.svg",
+  	"fonts/semibold/seguisb.woff",
+  	"fonts/bold/segoeuib.eot",
+  	"fonts/bold/segoeuib.svg",
+  	"fonts/bold/segoeuib.woff",
+  	"fonts/light/segoeuil.eot",
+  	"fonts/light/segoeuil.svg",
+  	"fonts/light/segoeuil.woff",
+  ],
   "keywords": [
     "Segoe",
     "Fonts"
