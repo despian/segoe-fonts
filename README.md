@@ -5,5 +5,5 @@ A simple bower package to import and setup the Segoe font family.
 ## Usage
 
 ~~~~
-bower install segoe-fonts --save
+bower install segoe-ui-fonts --save
 ~~~~
