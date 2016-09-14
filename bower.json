@@ -1,12 +1,12 @@
 {
   "name": "segoe-fonts",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "authors": [
-    "Aquib Master <aquib.master@intergen.co.nz>"
+    "Aquib Master <aquibmaster@gmail.com>"
   ],
-  "description": "A simple package to import and setup the Segoe font family.",
+  "description": "Easily import and setup the segoe font family",
   "main": [
-  	"css/segoe-fonts.css",
+  	"segoe-fonts.css",
   	"fonts/normal/segoeui.eot",
   	"fonts/normal/segoeui.svg",
   	"fonts/normal/segoeui.woff",
@@ -21,8 +21,10 @@
   	"fonts/light/segoeuil.woff"
   ],
   "keywords": [
-    "Segoe",
-    "Fonts"
+    "segoe",
+    "fonts",
+    "font-face",
+    "font-family"
   ],
   "license": "NA",
   "ignore": [
@@ -30,6 +32,5 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
   ]
 }
