@@ -1,25 +1,40 @@
 # Segoe Fonts
 
-A simple bower package to import and setup the Segoe font family.
+Easily import and setup the Segoe font family.
 
-## Usage
+## Installation
 
+### Bower
 ~~~~
 bower install segoe-fonts --save
 ~~~~
 
-## Font stack (less)
-```less
+## Usage
+#### Less Font Stack
+```css
 @segoe: 'Segoe UI', 'Open Sans', Helvetica, sans-serif;
 @segoe-semibold: 'Segoe UI Semibold', 'Open Sans', Helvetica, sans-serif;
 @segoe-bold: 'Segoe UI Bold', 'Open Sans', Helvetica, sans-serif;
-@segoe-light: 'Segoe UI Light', 'Open Sans', Helvetica, sans-serif; 
+@segoe-light: 'Segoe UI Light', 'Open Sans', Helvetica, sans-serif;
 ```
 
-## Font stack (sass)
+#### Sass Font Stack
 ```scss
 $segoe: 'Segoe UI', 'Open Sans', Helvetica, sans-serif;
 $segoe-semibold: 'Segoe UI Semibold', 'Open Sans', Helvetica, sans-serif;
 $segoe-bold: 'Segoe UI Bold', 'Open Sans', Helvetica, sans-serif;
-$segoe-light: 'Segoe UI Light', 'Open Sans', Helvetica, sans-serif; 
+$segoe-light: 'Segoe UI Light', 'Open Sans', Helvetica, sans-serif;
+```
+
+## Contributing
+
+#### Running bower tests
+In ./test/bower:
+~~~
+npm install
+~~~
+
+```bash
+npm run install     # Uninstalls segoe-fonts (if exists); clears the bower cache and installs segoe fonts from dev.
+npm test            # Wires in segoe-fonts on the index page and opens it up locally.
 ```
