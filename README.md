@@ -9,6 +9,13 @@ Easily import and setup the Segoe font family.
 bower install segoe-fonts --save
 ~~~~
 
+### NPM / Webpack
+~~~
+npm install segoe-fonts -S
+~~~
+
+See example webpack config in test/webpack :metal:
+
 ## Usage
 #### Less Font Stack
 ```css
@@ -38,3 +45,10 @@ npm install
 npm run install     # Uninstalls segoe-fonts (if exists); clears the bower cache and installs segoe fonts from dev.
 npm test            # Wires in segoe-fonts on the index page and opens it up locally.
 ```
+
+#### Running webpack bundling tests
+In ./test/webpack
+~~~
+npm install
+npm test
+~~~
