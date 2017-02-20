@@ -1,6 +1,6 @@
 {
   "name": "segoe-fonts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily import and setup the Segoe font family.",
   "main": "segoe-fonts.css",
   "directories": {
