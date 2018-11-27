@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
 	font-family: 'Segoe UI';
 	src: url('./fonts/normal/segoeui.eot');
 	src: local("Segoe UI"),
@@ -12,37 +12,37 @@
 }
 
 @font-face {
-	font-family: 'Segoe UI Semibold';
+	font-family: 'Segoe UI';
 	src: url('./fonts/semibold/seguisb.eot');
 	src: local("Segoe Semibold"),
 		 local("Segoe WP Semibold"),
 		 url('./fonts/semibold/seguisb.eot?#iefix') format('embedded-opentype'),
 		 url('./fonts/semibold/seguisb.woff') format('woff'),
 		 url('./fonts/semibold/seguisb.svg#SegoeUISemibold') format('svg');
-	font-weight: normal;
+	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Segoe UI Bold';
+	font-family: 'Segoe UI';
 	src: url('./fonts/bold/segoeuib.eot');
 	src: local("Segoe Bold"),
 		 local("Segoe WP Bold"),
 		 url('./fonts/bold/segoeuib.eot?#iefix') format('embedded-opentype'),
 		 url('./fonts/bold/segoeuib.woff') format('woff'),
 		 url('./fonts/bold/segoeuib.svg#SegoeUI') format('svg');
-	font-weight: normal;
+	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Segoe UI Light';
+	font-family: 'Segoe UI';
 	src: url('./fonts/light/segoeuil.eot');
 	src: local("Segoe UI Light"),
 		 local("Segoe WP Light"),
 		 url('./fonts/light/segoeuil.eot?#iefix') format('embedded-opentype'),
 		 url('./fonts/light/segoeuil.woff') format('woff'),
 		 url('./fonts/light/segoeuil.svg#SegoeUI') format('svg');
-	font-weight: normal;
+	font-weight: 300;
 	font-style: normal;
 }
